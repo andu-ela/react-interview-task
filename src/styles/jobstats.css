@@ -1,0 +1,28 @@
+.jobstats-container {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.jobstats-card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.jobstats-card.yellow {
+  background-color: #dac948da;
+}
+
+.jobstats-card.green {
+  background-color: #22c55e;
+}
+
+.jobstats-card.red {
+  background-color: #ef4444;
+}

@@ -1,0 +1,95 @@
+body {
+    font-family: 'Inter', sans-serif;
+  }
+
+.btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    overflow: hidden;
+    height: 44px;
+    padding: 0;
+    min-width: 180px;
+  }
+  
+  .btn-text {
+    flex: 1;
+    text-align: center;
+    padding: 0 16px;
+    color: white;
+  }
+  
+  .btn-icon {
+    border-left: 2px solid rgba(255, 255, 255, 0.15);
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    height: 100%;
+  }
+  
+  .cancel-btn {
+    background-color: #ef4444;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #dc2626;
+  }
+  
+  .save-btn {
+    background-color: #22c55e;
+  }
+  
+  .save-btn:hover {
+    background-color: #1fbd59;
+  }
+  
+  .create-btn {
+    background-color: #22c55e;
+  }
+  
+  .create-btn:hover {
+    background-color: #1fbd59;
+  }
+  
+  .go-back-button {
+    display: flex;
+    align-items: center;
+    background-color: #0b63a7;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0;
+    width: 200px;
+    height: 44px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+    margin-top: auto;
+  }
+  
+  .go-back-text {
+    flex: 1;
+    text-align: center;
+    padding: 0 16px;
+  }
+  
+  .go-back-icon {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid rgba(255, 255, 255, 0.1);
+    height: 100%;
+    font-size: 20px;
+  }
+  

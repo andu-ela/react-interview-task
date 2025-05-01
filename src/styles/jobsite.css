@@ -1,0 +1,144 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+.jobsite-page {
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+}
+
+.jobsite-header-bar {
+  padding: 16px 20px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 10px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  width: 100%;
+}
+
+.info-text {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #4b5563;
+  gap: 6px;
+}
+
+.info-icon {
+  background-color: #2563eb;
+  color: white;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 50%;
+}
+
+.jobsite-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+
+.search-input {
+  padding: 10px 14px;
+  border: 1px solid #e5e7eb;
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  font-size: 14px;
+  height: 30px;
+  width: 320px;
+  color: #111827;
+}
+
+.jobsite-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.jobsite-table th {
+  text-align: center;
+  padding: 12px;
+  background-color: #f8f8f8;
+  font-weight: 600;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.jobsite-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: middle;
+  text-align: center;
+  
+}
+
+
+.jobsite-table tr:nth-child(even) {
+  background-color: #f3f4f6;
+  
+}
+
+.jobsite-name {
+  color: #2563eb;
+  cursor: pointer;
+  text-decoration: underline;
+  text-align: start;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+}
+
+.status {
+  padding: 8px 24px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 120px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.status.completed {
+  background-color: #22c55e;
+  color: white;
+}
+
+.status.onhold {
+  background-color: #ef4444;
+  color: white;
+}
+
+.status.inprogress {
+  background-color: #dac948da;
+  color: white;
+}
+.modal-info-icon {
+  color: #1d4ed8; 
+  font-size: 14px;
+  padding: 4px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white; 
+  width: 22px;
+  height: 22px;
+}
